@@ -27,7 +27,7 @@ function ContactForm({ onSubmit, initialData }) { //our contact form page where 
     });
   };
 
-  return (
+  return ( //form storing our contacts
     <div>
       <h2>Contact Form</h2>
       <form onSubmit={handleSubmit}>
